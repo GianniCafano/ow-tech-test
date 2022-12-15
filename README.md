@@ -31,4 +31,12 @@ To use the Google Map seen on the Title details pages, you need to add your API 
 
 ```NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="YOUR_API_KEY"```
 
+## Running tests
+
+To execute the unit tests, run:
+
+```bash
+yarn test
+```
+
 
