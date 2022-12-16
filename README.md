@@ -33,7 +33,7 @@ You will see the application uses server side rendering to produce all the stati
 
 ## adding your google maps API key
 
-To use the Google Map seen on the Title details pages, you need to add your API key. To do this, create a .env.local file and add:
+To use the Google Map seen on the Title details pages, you need to add your API key. To do this, create a .env.local file in the root of the application and add:
 
 ```NEXT_PUBLIC_GOOGLE_MAPS_API_KEY="YOUR_API_KEY"```
 
