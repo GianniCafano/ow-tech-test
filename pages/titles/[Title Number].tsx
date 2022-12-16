@@ -20,7 +20,7 @@ function TitleNumber({ title }: ITTitlePageProps) {
   return (
     <>
     {!isLoaded ? <h1>Loading...</h1> : 
-      <div className={`${styles.titlePageContainer} grid max-w-3xl mx-auto gap-3`}>
+      <div className={`${styles.titlePageContainer} grid max-w-3xl mx-auto gap-10`}>
         <main>
           <div className="flex gap-4 items-center mb-4">
             <h1>{titleInformation['Title Number']}</h1>
